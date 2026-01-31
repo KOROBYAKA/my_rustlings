@@ -1,13 +1,14 @@
 fn bigger(a: i32, b: i32) -> i32 {
-    // TODO: Complete this function to return the bigger number!
-    // If both numbers are equal, any of them can be returned.
-    // Do not use:
-    // - another function call
-    // - additional variables
+    if (a>b) {a} else {b}
 }
 
 fn main() {
-    // You can optionally experiment here.
+    let x = 1;
+    let b = 20;
+    let c = 11;
+    print!("x vs b {}",bigger(x,b));
+    print!("b vs c {}",bigger(c,b));
+    print!("c vs x {}",bigger(x,c));
 }
 
 // Don't mind this for now :)
