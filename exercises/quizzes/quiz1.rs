@@ -10,7 +10,12 @@
 
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
-// fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(apls: u32) -> u32 {
+    match apls {
+        0..=40 => apls * 2,
+        _ => apls,
+    }
+}
 
 fn main() {
     // You can optionally experiment here.
