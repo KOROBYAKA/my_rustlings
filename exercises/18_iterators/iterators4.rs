@@ -10,6 +10,8 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+    let vec: Vec<u64> = (1..=num).collect();
+    vec.iter().product()
 }
 
 fn main() {
